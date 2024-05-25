@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
 app.get('/id', (req, res) => {
     res.send('Shahriar asraf');
 })
+app.get('/date', (req, res) => {
+    res.send(' asraf');
+})
+
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
